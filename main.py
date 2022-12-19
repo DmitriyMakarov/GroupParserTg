@@ -17,6 +17,7 @@ if __name__ == "__main__":
         shutil.copy(res_example_path, config_path)
     print(platform)
     print(Path.cwd())
+    print(config_dir)
     cfg = configparser.ConfigParser()
     cfg.read(config_path)
     cfg.sections()
